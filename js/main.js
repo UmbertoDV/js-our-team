@@ -6,7 +6,7 @@
 //   \_____|_|\___/|_.__/ \__,_|_|     \/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
 
 "use strict";
-membri = [
+const membri = [
 	{
 		nome: "Wayne",
 		cognome: "Barnett",
@@ -42,6 +42,9 @@ membri = [
 		cognome: "Ramos",
 		grado: "Graphic Designer",
 		immagine: "../img/barbara-ramos-graphic-designer.jpg",
+		fullName: function () {
+			return this.firstName + " " + this.lastName;
+		},
 	},
 ];
 
@@ -51,6 +54,8 @@ membri = [
 //  | |    / _ \ / _` |/ _ \ | |  | | '_ \  | |    / _ \ / _` |/ _` |
 //  | |___| (_) | (_| |  __/ | |__| | | | | | |___| (_) | (_| | (_| |
 //   \_____\___/ \__,_|\___|  \____/|_| |_| |______\___/ \__,_|\__,_|
+
+console.log(membri);
 
 //   ______                _   _
 //  |  ____|              | | (_)
