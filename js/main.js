@@ -1,1 +1,60 @@
+//    _____ _       _           _  __      __        _       _     _
+//   / ____| |     | |         | | \ \    / /       (_)     | |   | |
+//  | |  __| | ___ | |__   __ _| |  \ \  / /_ _ _ __ _  __ _| |__ | | ___  ___
+//  | | |_ | |/ _ \| '_ \ / _` | |   \ \/ / _` | '__| |/ _` | '_ \| |/ _ \/ __|
+//  | |__| | | (_) | |_) | (_| | |    \  / (_| | |  | | (_| | |_) | |  __/\__ \
+//   \_____|_|\___/|_.__/ \__,_|_|     \/ \__,_|_|  |_|\__,_|_.__/|_|\___||___/
+
 "use strict";
+membri = [
+	{
+		nome: "Wayne",
+		cognome: "Barnett",
+		grado: "Founder & CEO",
+		immagine: "../img/wayne-barnett-founder-ceo.jpg",
+	},
+	{
+		nome: "Angela",
+		cognome: "Caroll",
+		grado: "Chief Editor",
+		immagine: "../img/angela-caroll-chief-editor.jpg",
+	},
+	{
+		nome: "Walter",
+		cognome: "Gordon",
+		grado: "Office Manager",
+		immagine: "../img/walter-gordon-office-manager.jpg",
+	},
+	{
+		nome: "Angela",
+		cognome: "Lopez",
+		grado: "Social Media Manager",
+		immagine: "../img/angela-lopez-social-media-manager.jpg",
+	},
+	{
+		nome: "Scott",
+		cognome: "Estrada",
+		grado: "Developer",
+		immagine: "../img/scott-estrada-developer.jpg",
+	},
+	{
+		nome: "Barbara",
+		cognome: "Ramos",
+		grado: "Graphic Designer",
+		immagine: "../img/barbara-ramos-graphic-designer.jpg",
+	},
+];
+
+//    _____          _         ____          _                     _
+//   / ____|        | |       / __ \        | |                   | |
+//  | |     ___   __| | ___  | |  | |_ __   | |     ___   __ _  __| |
+//  | |    / _ \ / _` |/ _ \ | |  | | '_ \  | |    / _ \ / _` |/ _` |
+//  | |___| (_) | (_| |  __/ | |__| | | | | | |___| (_) | (_| | (_| |
+//   \_____\___/ \__,_|\___|  \____/|_| |_| |______\___/ \__,_|\__,_|
+
+//   ______                _   _
+//  |  ____|              | | (_)
+//  | |__ _   _ _ __   ___| |_ _  ___  _ __  ___
+//  |  __| | | | '_ \ / __| __| |/ _ \| '_ \/ __|
+//  | |  | |_| | | | | (__| |_| | (_) | | | \__ \
+//  |_|   \__,_|_| |_|\___|\__|_|\___/|_| |_|___/
