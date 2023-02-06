@@ -12,30 +12,45 @@ const membri = [
 		cognome: "Barnett",
 		grado: "Founder & CEO",
 		immagine: "../img/wayne-barnett-founder-ceo.jpg",
+		fullName: function () {
+			return this.nome + " " + this.cognome;
+		},
 	},
 	{
 		nome: "Angela",
 		cognome: "Caroll",
 		grado: "Chief Editor",
 		immagine: "../img/angela-caroll-chief-editor.jpg",
+		fullName: function () {
+			return this.nome + " " + this.cognome;
+		},
 	},
 	{
 		nome: "Walter",
 		cognome: "Gordon",
 		grado: "Office Manager",
 		immagine: "../img/walter-gordon-office-manager.jpg",
+		fullName: function () {
+			return this.nome + " " + this.cognome;
+		},
 	},
 	{
 		nome: "Angela",
 		cognome: "Lopez",
 		grado: "Social Media Manager",
 		immagine: "../img/angela-lopez-social-media-manager.jpg",
+		fullName: function () {
+			return this.nome + " " + this.cognome;
+		},
 	},
 	{
 		nome: "Scott",
 		cognome: "Estrada",
 		grado: "Developer",
 		immagine: "../img/scott-estrada-developer.jpg",
+		fullName: function () {
+			return this.nome + " " + this.cognome;
+		},
 	},
 	{
 		nome: "Barbara",
@@ -43,7 +58,7 @@ const membri = [
 		grado: "Graphic Designer",
 		immagine: "../img/barbara-ramos-graphic-designer.jpg",
 		fullName: function () {
-			return this.firstName + " " + this.lastName;
+			return this.nome + " " + this.cognome;
 		},
 	},
 ];
@@ -56,6 +71,9 @@ const membri = [
 //   \_____\___/ \__,_|\___|  \____/|_| |_| |______\___/ \__,_|\__,_|
 
 console.log(membri);
+for (const membro of membri) {
+	console.log(membro.fullName());
+}
 
 //   ______                _   _
 //  |  ____|              | | (_)
